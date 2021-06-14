@@ -18,9 +18,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
-    <title>Landing | Tailwind Starter Kit by Creative Tim</title>
+    <title>The Power Room</title>
   </head>
   <body class="text-gray-800 antialiased">
+    <!-- Navbar -->
     <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
     >
@@ -31,9 +32,9 @@
           class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
         >
           <a
-            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            >Tailwind Starter Kit</a
+            >The Power Room</a
           ><button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
@@ -46,70 +47,54 @@
           class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
           id="example-collapse-navbar"
         >
-          <ul class="flex flex-col lg:flex-row list-none mr-auto">
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
-                ></i>
-                Docs</a
-              >
-            </li>
-          </ul>
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <!-- Icon 1 -->
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "
+                  class="text-orange-500 fab fa-facebook text-lg leading-lg "
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Share</span></a
               >
             </li>
+            <!-- Icon 2 -->
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "
+                  class="text-orange-500 fab fa-twitter text-lg leading-lg "
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Tweet</span></a
               >
             </li>
+            <!-- Icon 3 -->
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
+                  class="text-orange-500 fab fa-linkedin text-lg leading-lg "
                 ></i
-                ><span class="lg:hidden inline-block ml-2">Star</span></a
+                ><span class="lg:hidden inline-block ml-2">Profile</span></a
               >
-            </li>
-            <li class="flex items-center">
-              <button
-                class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                type="button"
-                style="transition: all 0.15s ease 0s;"
-              >
-                <i class="fas fa-arrow-alt-circle-down"></i> Download
-              </button>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- Main Area -->
     <main>
+      <!-- Hero -->
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 75vh;"
+        style="min-height: 83vh;"
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'
+          style='background-image: url("https://source.unsplash.com/1600x900/?gym");'
         >
           <span
             id="blackOverlay"
@@ -121,13 +106,12 @@
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
                 <h1 class="text-white font-semibold text-5xl">
-                  Your story starts with us.
+                  Feel the <span class="text-orange-500">Power</span>
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  This is a simple example of a Landing Page you can build using
-                  Tailwind Starter Kit. It features multiple CSS components
-                  based on the Tailwindcss design system.
+                  Welcome to the Power Room. We are a fitness and training center that focuses on pushing you to your absolute limit. Download our complete brochure to get started today!
                 </p>
+                <a href="#" class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-6 cursor-pointer">Download Brochure</a>
               </div>
             </div>
           </div>
