@@ -1,5 +1,4 @@
 # Power Room
-## Website build with Tailwind Starter Kit
 
 ![Photo](https://raw.githubusercontent.com/rayc2045/power-room-website/master/assets/img/demo.png)
 
@@ -12,4 +11,4 @@
 - 使用 [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation) 作為模板製作健身網站 Landing Page。
 - 使用 [Tailwind](https://tailwindcss.com/) 撰寫網頁結構與樣式。
 - 載入 [Random Unsplash](https://source.unsplash.com/) API 健身房關聯圖片，使每次開啟網頁時都有不一樣的封面圖片。
-- 透過 [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) 套件達成在滾動網頁時加入動畫。
+- 透過 [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) 套件達成在滾動網頁時加入轉場動畫。
