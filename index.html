@@ -16,6 +16,9 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css">
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
     <title>The Power Room</title>
@@ -101,7 +104,7 @@
             class="w-full h-full absolute opacity-75 bg-black"
           ></span>
         </div>
-        <div class="container relative mx-auto">
+        <div class="container relative mx-auto" data-aos="fade-in">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <h1 class="text-white font-semibold text-5xl">
@@ -158,14 +161,14 @@
         </div>
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
                 src="https://source.unsplash.com/450x700/?gym"
               />
             </div>
-            <div class="w-full md:w-5/12 px-4">
+            <div class="w-full md:w-5/12 px-4" data-aos="fade-left">
               <h3 class="mt-2 text-4xl font-bold"><span class="text-orange-500">Safe</span> Body Building</h3>
               <p class="mt-4 text-lg leading-relaxed">
                 The extension comes with three pre-built pages to help you get
@@ -237,7 +240,7 @@
           <!-- Trainer Card Wrapper -->
           <div class="flex flex-wrap">
             <!-- Card 1 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
               <div class="px-6">
                 <img
                   alt="..."
@@ -254,7 +257,7 @@
               </div>
             </div>
             <!-- Card 2 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
               <div class="px-6">
                 <img
                   alt="..."
@@ -271,7 +274,7 @@
               </div>
             </div>
             <!-- Card 3 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
               <div class="px-6">
                 <img
                   alt="..."
@@ -327,7 +330,7 @@
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg"
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg" data-aos="fade-up-right"
               >
                 <div class="flex-auto p-5 lg:p-10 text-gray-300">
                   <div class="relative w-full mb-6 mt-8">
@@ -506,10 +509,17 @@
       </div>
     </footer>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"></script>
   <script>
     function toggleNavbar(collapseID) {
       document.getElementById(collapseID).classList.toggle("hidden");
       document.getElementById(collapseID).classList.toggle("block");
     }
+
+    AOS.init({
+      delay: 200,
+      duration: 1200,
+      once: false,
+    });
   </script>
 </html>
